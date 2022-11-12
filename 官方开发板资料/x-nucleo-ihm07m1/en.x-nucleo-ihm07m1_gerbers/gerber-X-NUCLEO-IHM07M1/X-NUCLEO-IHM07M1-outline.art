@@ -1,0 +1,33 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  X-NUCLEO-IHM07M1_L6230_Nucleo_Shield.brd*
+G04 Film Name:    X-NUCLEO-IHM07M1-outline*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.6-S023*
+G04 Origin Date:  Wed Mar 18 16:01:41 2015*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0200*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX35Y35*MOMM*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.02*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X6674990Y-1840000D02*
+Y4760010D01*
+X5188000D01*
+Y3724000D01*
+X1162000D01*
+Y4760010D01*
+X-324990D01*
+Y-1840000D01*
+X6674990D01*
+M02*

@@ -1,0 +1,252 @@
+{
+    "type": "Inverter",
+
+    "name": "STEVAL-CTM01xV1",
+    "descVersion": "V1.0",
+    "PN": "STEVAL-CTM01xV1",
+
+    "longDescription": "Refrigerator compressor solution",
+    "shortDescription": "Refrigerator compressor solution",
+
+    "link": "https://www.st.com",
+
+    "algorithmCompatibility": [
+        "FOC"
+    ],
+
+    "mcu": "STSPIN32F0601",
+    "clockSource": "internal_osc",
+    "clockFrequency": 48,
+
+    "motorDrives": [
+        {
+            "name": "M1",
+            "connectorType": "None",
+            "maxRatedVoltage": 390,
+            "minRatedVoltage": 260,
+            "maxRatedCurrent": 2.1,
+
+
+            "features": [
+                {
+                    "name": "CurrentSensing",
+                    "type": "CurrentSensing",
+                    "hwVariants": [
+                        {
+                            "name": "SingleShunt_AmplifiedCurrent",
+                            "configuration": "SingleShunt_AmplifiedCurrent",
+                            "help": "How to enable this variant",
+                            "isDefault": true,
+                            "shuntResistor": 0.1,
+                            "amplifyingNetworkGain": 5.63,
+                            "amplifyingNetworkImax": 2.1,
+                            "amplifyingNetworkVm": 3.3,
+                            "amplifyingNetworkPrating": 0.5,
+                            "amplifyingNetworkR1": 1000,
+                            "amplifyingNetworkR2": 12000,
+                            "amplifyingNetworkR3": 20000,
+                            "amplifyingNetworkR4": 1000,
+                            "amplifyingNetworkR5": 5100,
+                            "signals": [
+                                {
+                                    "name": "CURRENT_AMPL",
+                                    "pins": [
+                                        {
+                                            "name": "PA2",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                }  							
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "PhaseVoltageGeneration",
+                    "type": "PhaseVoltageGeneration",
+                    "driverName": "STDRIVE601",
+                    "driverPN": "STDRIVE601",
+                    "minDeadTime": 700,
+                    "maxSwitchingFreq": 50,
+                    "tNoise": 1550,
+                    "tRise": 2000,
+                    "hwVariants": [
+                        {
+                            "name": "DrivingHighAndLowSidesAndMasterEnable",
+                            "configuration": "DrivingHighAndLowSidesAndMasterEnable",
+                            "help": "How to enable this variant",
+                            "isDefault": true,
+                            "highSideSwitchesDrivingPolarity": "Active low",
+                            "lowSideSwitchesDrivingPolarity": "Active low",
+                            "deadTime": 1000,
+                            "signals": [
+                                {
+                                    "name": "PWM_CHU_H",
+                                    "pins": [
+                                        {
+                                            "name": "PA8",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PWM_CHV_H",
+                                    "pins": [
+                                        {
+                                            "name": "PA9",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PWM_CHW_H",
+                                    "pins": [
+                                        {
+                                            "name": "PA10",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PWM_CHU_L",
+                                    "pins": [
+                                        {
+                                            "name": "PB13",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PWM_CHV_L",
+                                    "pins": [
+                                        {
+                                            "name": "PB14",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PWM_CHW_L",
+                                    "pins": [
+                                        {
+                                            "name": "PB15",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+								{
+                                    "name": "PWM_EN",
+                                    "pins": [
+                                        {
+                                            "name": "PA11",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "VBusSensing",
+                    "type": "VBusSensing",
+                    "busVoltageDivider": 201,
+                    "hwVariants": [
+                        {
+                            "name": "VBusSensing",
+                            "configuration": "VBusSensing",
+                            "help": "",
+                            "isDefault": true,
+                            "busVoltageDivider": 201,
+                            "busVoltageDividerR1": 2000,
+                            "busVoltageDividerR2": 10,
+                            "busVoltageDividerR3": null,
+                            "signals": [
+                                {
+                                    "name": "VBUS",
+                                    "pins": [
+                                        {
+                                            "name": "PA0",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "OverCurrentProtection",
+                    "type": "OverCurrentProtection",
+                    "hwVariants": [
+                        {
+                            "name": "OnPowerStageOCP",
+                            "configuration": "OnPowerStageOCP",
+                            "help": "How to enable this variant",
+                            "isDefault": true,
+                            "OCComparatorThreshold": 0.46,
+                            "OCNetworkOffset": 0,
+                            "OCNetworkGain": 0.1,
+                            "OCThreshold": 4.6,
+                            "OCSignalPolarity": "Active low",
+                            "signals": [
+                                {
+                                    "name": "OC_TRIGGER",
+                                    "pins": [
+                                        {
+                                            "name": "CIN",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                }  							
+                            ]  
+                        }
+                    ]
+                },
+                {
+                    "name": "SerialPortCommunication",
+                    "type": "SerialPortCommunication",
+                    "hwVariants": [
+                        {
+                            "name": "Uart2WiresCommunication",
+                            "isDefault": true,
+                            "signals": [
+                                {
+                                    "name": "UART_TX",
+                                    "pins": [
+                                        {
+                                            "name": "PB6",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "UART_RX",
+                                    "pins": [
+                                        {
+                                            "name": "PB7",
+                                            "help": "",
+                                            "isDefault": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }                
+            ]
+        }
+    ]
+}

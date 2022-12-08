@@ -1,0 +1,51 @@
+Product Group,×´¿ö,Compliance,Family,Type,Substrate,Input Logic,Rated Voltage Min (V),IO @ 25 ¡ãC Min (A),VCE(sat) @ 25 ¡ãC Typ (V),RDS(on) (¦¸),Emitter Configuration,Shutdown Pin,Mounting Type,Package Type,MSL Type,MSL Temp (¡ãC),Pricing ($/Unit)
+FAM65V05DF1,Active,Pb A H P ,ASPM27,3-Phase Inverter IGBT,DBC,Active High,650,50,2.25,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,Y
+FNA22512A,"Active, Not Rec",Pb H ,SPM34,3-Phase Inverter IGBT,DBC,Active High,1200,25,1.9,~NA~,3 Emitter Pins,Yes,DIP,DIP-034,NA,0,N
+FNA23512A,"Active, Not Rec",Pb H ,SPM34,3-Phase Inverter IGBT,DBC,Active High,1200,35,1.9,~NA~,3 Emitter Pins,Yes,DIP,DIP-034,NA,0,N
+FNA25012A,"Active, Not Rec",Pb H ,SPM34,3-Phase Inverter IGBT,DBC,Active High,1200,50,2.2,~NA~,3 Emitter Pins,Yes,DIP,DIP-034,NA,0,N
+FNA25060,Active,Pb H ,SPM34,3-Phase Inverter IGBT,DBC,Active High,600,50,1.5,~NA~,3 Emitter Pins,Yes,DIP,DIP-034,NA,0,N
+FNA41560,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.8,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,Y
+FNA41560B2,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.8,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FNA41560T2,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.6,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FNB33060T,Active,Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,30,1.6,~NA~,3 Emitter Pins,No,DIP,DIP-027,NA,0,N
+FNB34060T,Active,Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,40,1.5,~NA~,3 Emitter Pins,No,DIP,DIP-027,NA,0,N
+FNB34060T6,Active,Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,40,1.5,~NA~,3 Emitter Pins,No,DIP,"SPMCF-027 / PDD, STD, SPM27-CF, SHORT LEAD (Special) CUSTOMER SPECIFIC OPTION",NA,0,N
+FNB35060T,Active,Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,50,1.65,~NA~,3 Emitter Pins,No,DIP,DIP-027,NA,0,N
+FNB40560,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,5,1.4,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FNB41060,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,10,1.5,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,Y
+FNB41060B2,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,10,1.5,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,Y
+FNB41560,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.6,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,Y
+FNB41560B2,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.6,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,Y
+FNB43060T2,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,30,1.65,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FNC42060F2,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,20,1.85,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FND43060T2,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,30,1.65,~NA~,3 Emitter Pins,Yes,DIP,CDIP-026,NA,0,N
+FNE41060,"Active, Not Rec",Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,10,1.5,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,N
+FPAB20BH60B,"Active, Not Rec",Pb,SPM3V PFC,Single Boost PFC with Input Bridge Rectifier,DBC,Active High,600,20,3,-,-,Yes,DIP,DIP-027,NA,0,N
+FPAB30BH60B,"Active, Not Rec",Pb,SPM3V PFC,Single Boost PFC with Input Bridge Rectifier,DBC,Active High,600,30,2.8,-,-,Yes,DIP,DIP-027,NA,0,N
+FPAM30LH60,Active,Pb,SPM2 PFC,Interleave PFC with Input Bridge Rectifier,DBC,Active High,600,30,2.2,-,Combined Emitter Pin,Yes,DIP,DIP-032,NA,0,N
+FPDB40PH60B,"Active, Not Rec",Pb,SPM3V PFC,Bridgeless PFC Module with Shunt Resistor,DBC,Active High,600,40,2.1,-,Combined Emitter Pin,Yes,DIP,DIP-027,NA,0,N
+FPDB60PH60B,"Active, Not Rec",Pb,SPM3V PFC,Bridgeless PFC Module with Shunt Resistor,DBC,Active High,600,60,2.5,-,Combined Emitter Pin,Yes,DIP,DIP-027,NA,0,N
+FSAM75SM60A,Consult Sales Office,Pb,-,3-Phase Inverter IGBT,DBC,Active High,600,75,2.4,-,3 Emitter Pins,Yes,DIP,DIP-032,NA,0,N
+FSBB10CH120D,"Active, Not Rec",Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,10,2.2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB10CH120DF,Active,Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,10,2.8,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB15CH120D,"Active, Not Rec",Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,15,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB15CH120DF,"Active, Not Rec",Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,15,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,Y
+FSBB15CH60C,"Active, Not Rec",Pb,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,15,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB15CH60D,"Active, Not Rec",Pb,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,15,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB20CH120D,"Active, Not Rec",Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,20,2.2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB20CH120DF,"Active, Not Rec",Pb H ,SPM3V,3-Phase Inverter IGBT,DBC,Active High,1200,20,2.2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,Y
+FSBB20CH60C,"Active, Not Rec",Pb,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,20,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,N
+FSBB30CH60C,"Active, Not Rec",Pb,SPM3V,3-Phase Inverter IGBT,DBC,Active High,600,30,2,~NA~,3 Emitter Pins,Yes,DIP,DIP-027,NA,0,Y
+NFA41560R42,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,15,1.5,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,F
+NFA42060R42,Active,Pb H ,SPM45,3-Phase Inverter IGBT,Ceramic,Active High,600,20,1.5,~NA~,3 Emitter Pins,No,DIP,CDIP-026,NA,0,F
+NFA50460R47,Active,Pb H ,SPM5,3-Phase Inverter IGBT,Full Pack,Active High,600,4,1.85,-,3 Source Pins,No,SMD,SMD-023,3,260,F
+NFA50460R4B,Active,Pb H ,SPM5,3-Phase Inverter IGBT,Full Pack,Active High,600,4,1.85,-,3 Source Pins,No,DIP,DIP-023,NA,0,F
+NFAL5065L4B,Active,Pb,SPM49,3-Phase Inverter IGBT,DBC,Active High,650,50,1.55,~NA~,3 Emitter Pins,Yes,DIP,"DIP30, 79x30/SPM49 CAA",NA,0,Y
+NFAL5065L4BT,Active,Pb,SPM49,3-Phase Inverter IGBT,DBC,Active High,650,50,1.55,~NA~,3 Emitter Pins,Yes,DIP,"DIP31, 79x30/SPM49 CAB",NA,0,Y
+NFAL7565L4B,Active,Pb,SPM49,3-Phase Inverter IGBT,DBC,Active High,650,75,1.55,~NA~,3 Emitter Pins,Yes,DIP,"DIP30, 79x30/SPM49 CAA",NA,0,Y
+NFAL7565L4BT,Active,Pb,SPM49,3-Phase Inverter IGBT,DBC,Active High,650,75,1.55,~NA~,3 Emitter Pins,Yes,DIP,"DIP31, 79x30/SPM49 CAB",NA,0,Y
+NFAM2065L4B,Active,Pb,SPM31,3-Phase Inverter IGBT,DBC,Active High,650,20,1.6,~NA~,3 Emitter Pins,Yes,DIP,"DIP39, 54.5x31.0 EP-2",NA,0,N
+NFAM2065L4BT,Active,Pb,SPM31,3-Phase Inverter IGBT,DBC,Active High,650,20,1.6,~NA~,3 Emitter Pins,Yes,DIP,"MINI DIP39, 31.0x54.5",NA,0,N
+NFAM3065L4B,Active,Pb,SPM31,3-Phase Inverter IGBT,DBC,Active High,650,30,1.6,~NA~,3 Emitter Pins,Yes,DIP,"DIP39, 54.5x31.0 EP-2",NA,0,N
+NFAM3065L4BL,Active,Pb,SPM31,3-Phase Inverter IGBT,DBC,Active High,650,30,1.6,~NA~,3 emitter pins,Yes,DIP,"DIP39, 54.5x31.0 EP-2",NA,0,F
+NFAM3065L4BT,Active,Pb,SPM31,3-Phase Inverter IGBT,DBC,Active High,650,30,1.6,~NA~,3 Emitter Pins,Yes,DIP,"MINI DIP39, 31.0x54.5",NA,0,Y

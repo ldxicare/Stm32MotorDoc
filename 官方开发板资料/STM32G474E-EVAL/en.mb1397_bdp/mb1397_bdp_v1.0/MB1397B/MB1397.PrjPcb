@@ -2,20 +2,19 @@
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
-ReleasesFolder=
+OutputPath=Project Outputs for PCB_Project_Template
+LogFolderPath=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
-NetlistSinglePinNets=0
 DefaultConfiguration=Default Configuration
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
@@ -24,19 +23,6 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
-DItemRevisionGUID=
-ReportSuppressedErrorsInMessages=0
-FSMCodingStyle=eFMSDropDownList_OneProcess
-FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PCB_Project_Template
-LogFolderPath=
-ManagedProjectGUID=
-LinkedManagedProjectGUID=
-IncludeDesignInRelease=0
-
-[Preferences]
-PrefsVaultGUID=
-PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=STM32_microcontroller_IOs.SchDoc
@@ -51,9 +37,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TXUMIERL
 
 [Document2]
 DocumentPath=STM32_microcontroller_power.SchDoc
@@ -68,9 +51,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RYYARCPN
 
 [Document3]
 DocumentPath=USB_PD.SchDoc
@@ -85,9 +65,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DNHHATFJ
 
 [Document4]
 DocumentPath=USB-TYPEC_CON.SchDoc
@@ -102,9 +79,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FRBYWQNY
 
 [Document5]
 DocumentPath=FMC Memory.SchDoc
@@ -119,9 +93,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EDVXJUYV
 
 [Document6]
 DocumentPath=QSPI Memory.SchDoc
@@ -136,9 +107,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QLNXOAKI
 
 [Document7]
 DocumentPath=Audio.SchDoc
@@ -153,9 +121,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RCETATVL
 
 [Document8]
 DocumentPath=LCD&SDcard.SchDoc
@@ -170,9 +135,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OWRLNXWC
 
 [Document9]
 DocumentPath=RS232&RS485.SchDoc
@@ -187,9 +149,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XHNPYTBU
 
 [Document10]
 DocumentPath=FDCAN.SchDoc
@@ -204,9 +163,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KIRLPHSQ
 
 [Document11]
 DocumentPath=Analog Interfaces.SchDoc
@@ -221,9 +177,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BOYVYXCL
 
 [Document12]
 DocumentPath=Peripherals.SchDoc
@@ -238,9 +191,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NCMKQHVH
 
 [Document13]
 DocumentPath=SmartCard.SchDoc
@@ -255,9 +205,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DBJPXPUX
 
 [Document14]
 DocumentPath=MotorControl.SchDoc
@@ -272,9 +219,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DDDYSTFC
 
 [Document15]
 DocumentPath=ExtensionConnector.SchDoc
@@ -289,9 +233,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VTPXWPEQ
 
 [Document16]
 DocumentPath=Debug connector.SchDoc
@@ -306,9 +247,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CKRUWXII
 
 [Document17]
 DocumentPath=Multi-Function Expander.SchDoc
@@ -323,9 +261,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PJKLIFRO
 
 [Document18]
 DocumentPath=Power_Board.SchDoc
@@ -340,9 +275,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WUGJROYI
 
 [Document19]
 DocumentPath=STLink_V3E_SWD.SchDoc
@@ -357,9 +289,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HQQRMHJP
 
 [Document20]
 DocumentPath=Project_overview.SchDoc
@@ -374,9 +303,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SXAOXJER
 
 [Document21]
 DocumentPath=FMC Memory.Harness
@@ -391,9 +317,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document22]
 DocumentPath=MB1397_TOP.SchDoc
@@ -408,9 +331,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HXPFVRSS
 
 [Document23]
 DocumentPath=HW_Mechanical_Parts.SchDoc
@@ -425,9 +345,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RUBUUOXR
 
 [Document24]
 DocumentPath=STLink_V3E_SWD.Harness
@@ -442,9 +359,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document25]
 DocumentPath=STM32_microcontroller_IOs.Harness
@@ -459,9 +373,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document26]
 DocumentPath=USB_PD.Harness
@@ -476,9 +387,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document27]
 DocumentPath=USB-TYPEC_CON.Harness
@@ -493,9 +401,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document28]
 DocumentPath=QSPI Memory.Harness
@@ -510,9 +415,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document29]
 DocumentPath=Audio.Harness
@@ -527,9 +429,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document30]
 DocumentPath=LCD&SDcard.Harness
@@ -544,9 +443,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document31]
 DocumentPath=FDCAN.Harness
@@ -561,9 +457,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document32]
 DocumentPath=SmartCard.Harness
@@ -578,9 +471,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document33]
 DocumentPath=MotorControl.Harness
@@ -595,9 +485,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document34]
 DocumentPath=Peripherals.Harness
@@ -612,9 +499,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document35]
 DocumentPath=Debug connector.Harness
@@ -629,9 +513,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document36]
 DocumentPath=Multi-Function Expander.Harness
@@ -646,9 +527,6 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document37]
 DocumentPath=MB1397.PcbDoc
@@ -663,28 +541,8 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CXXSEIYS
 
 [Document38]
-DocumentPath=6L2S_Outjob.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document39]
 DocumentPath=ExtensionConnector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -697,14 +555,9 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=DA2EE345-00B2-4BF4-B2A8-9B400285A8C7
 Description=G474E
-AllowFabrication=0
 ParameterCount=0
 VariationCount=72
 Variation1=Designator=R286|UniqueId=\USUGEHGT\YALSDPRH\BNHWIJFF|Kind=1|AlternatePart= 
@@ -774,7 +627,7 @@ Variation64=Designator=R169|UniqueId=\USUGEHGT\MYTKGHIE\YCIVMRIT|Kind=1|Alternat
 Variation65=Designator=R168|UniqueId=\USUGEHGT\MYTKGHIE\COBPKMJI|Kind=1|AlternatePart= 
 Variation66=Designator=R170|UniqueId=\USUGEHGT\MYTKGHIE\LKHOATSD|Kind=1|AlternatePart= 
 Variation67=Designator=R167|UniqueId=\USUGEHGT\MYTKGHIE\QSIEVVWK|Kind=1|AlternatePart= 
-Variation68=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation68=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF
 ParamVariation1=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1=SB35
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -821,7 +674,7 @@ ParamVariation22=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/
 ParamDesignator22=SB35
 Variation69=Designator=C33|UniqueId=\USUGEHGT\PXPLTCMB\ADNRCKBS|Kind=1|AlternatePart= 
 Variation70=Designator=L1|UniqueId=\USUGEHGT\PXPLTCMB\RYHBACKH|Kind=1|AlternatePart= 
-Variation71=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation71=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF
 ParamVariation23=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator23=SB8
 ParamVariation24=ParameterName=Component Kind|VariantValue=Standard
@@ -866,7 +719,7 @@ ParamVariation43=ParameterName=Simulation|VariantValue=
 ParamDesignator43=SB8
 ParamVariation44=ParameterName=Status|VariantValue=Released
 ParamDesignator44=SB8
-Variation72=Designator=SB10|UniqueId=\USUGEHGT\EMNTBCGB\UBBXOTPS|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation72=Designator=SB10|UniqueId=\USUGEHGT\EMNTBCGB\UBBXOTPS|Kind=2|AlternatePart=SB_ON
 ParamVariation45=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator45=SB10
 ParamVariation46=ParameterName=Component Kind|VariantValue=Standard
@@ -914,9 +767,7 @@ ParamDesignator66=SB10
 ParamVariationCount=66
 
 [ProjectVariant2]
-UniqueID=DA2EE345-00B2-4BF4-B2A8-9B400285A8C7
 Description=G474EMC
-AllowFabrication=0
 ParameterCount=0
 VariationCount=156
 Variation1=Designator=R286|UniqueId=\USUGEHGT\YALSDPRH\BNHWIJFF|Kind=1|AlternatePart= 
@@ -974,7 +825,7 @@ Variation52=Designator=R169|UniqueId=\USUGEHGT\MYTKGHIE\YCIVMRIT|Kind=1|Alternat
 Variation53=Designator=R168|UniqueId=\USUGEHGT\MYTKGHIE\COBPKMJI|Kind=1|AlternatePart= 
 Variation54=Designator=R170|UniqueId=\USUGEHGT\MYTKGHIE\LKHOATSD|Kind=1|AlternatePart= 
 Variation55=Designator=R167|UniqueId=\USUGEHGT\MYTKGHIE\QSIEVVWK|Kind=1|AlternatePart= 
-Variation56=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation56=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF
 ParamVariation1=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1=SB35
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -1023,7 +874,7 @@ Variation57=Designator=R146|UniqueId=\USUGEHGT\EMNTBCGB\ITQMLBKF|Kind=1|Alternat
 Variation58=Designator=R143|UniqueId=\USUGEHGT\EMNTBCGB\GWRQISFX|Kind=1|AlternatePart= 
 Variation59=Designator=C33|UniqueId=\USUGEHGT\PXPLTCMB\ADNRCKBS|Kind=1|AlternatePart= 
 Variation60=Designator=L1|UniqueId=\USUGEHGT\PXPLTCMB\RYHBACKH|Kind=1|AlternatePart= 
-Variation61=Designator=SB69|UniqueId=\USUGEHGT\EMNTBCGB\SHKUMFRA|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation61=Designator=SB69|UniqueId=\USUGEHGT\EMNTBCGB\SHKUMFRA|Kind=2|AlternatePart=SB_ON
 ParamVariation23=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator23=SB69
 ParamVariation24=ParameterName=Component Kind|VariantValue=Standard
@@ -1069,7 +920,7 @@ ParamDesignator43=SB69
 ParamVariation44=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator44=SB69
 Variation62=Designator=R60|UniqueId=\USUGEHGT\EMNTBCGB\CUNXVYRT|Kind=1|AlternatePart= 
-Variation63=Designator=SB73|UniqueId=\USUGEHGT\EMNTBCGB\DGJHXJMO|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation63=Designator=SB73|UniqueId=\USUGEHGT\EMNTBCGB\DGJHXJMO|Kind=2|AlternatePart=SB_ON
 ParamVariation45=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator45=SB73
 ParamVariation46=ParameterName=Component Kind|VariantValue=Standard
@@ -1114,7 +965,7 @@ ParamVariation65=ParameterName=Package|VariantValue=SB0603
 ParamDesignator65=SB73
 ParamVariation66=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator66=SB73
-Variation64=Designator=SB74|UniqueId=\USUGEHGT\EMNTBCGB\RGLSDMMF|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation64=Designator=SB74|UniqueId=\USUGEHGT\EMNTBCGB\RGLSDMMF|Kind=2|AlternatePart=SB_ON
 ParamVariation67=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator67=SB74
 ParamVariation68=ParameterName=Component Kind|VariantValue=Standard
@@ -1159,7 +1010,7 @@ ParamVariation87=ParameterName=Package|VariantValue=SB0603
 ParamDesignator87=SB74
 ParamVariation88=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator88=SB74
-Variation65=Designator=SB76|UniqueId=\USUGEHGT\EMNTBCGB\MGKEWHNM|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation65=Designator=SB76|UniqueId=\USUGEHGT\EMNTBCGB\MGKEWHNM|Kind=2|AlternatePart=SB_ON
 ParamVariation89=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator89=SB76
 ParamVariation90=ParameterName=Component Kind|VariantValue=Standard
@@ -1204,7 +1055,7 @@ ParamVariation109=ParameterName=Package|VariantValue=SB0603
 ParamDesignator109=SB76
 ParamVariation110=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator110=SB76
-Variation66=Designator=SB78|UniqueId=\USUGEHGT\EMNTBCGB\UXRBPLBH|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation66=Designator=SB78|UniqueId=\USUGEHGT\EMNTBCGB\UXRBPLBH|Kind=2|AlternatePart=SB_ON
 ParamVariation111=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator111=SB78
 ParamVariation112=ParameterName=Component Kind|VariantValue=Standard
@@ -1249,7 +1100,7 @@ ParamVariation131=ParameterName=Package|VariantValue=SB0603
 ParamDesignator131=SB78
 ParamVariation132=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator132=SB78
-Variation67=Designator=SB77|UniqueId=\USUGEHGT\EMNTBCGB\IRLPTVTV|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation67=Designator=SB77|UniqueId=\USUGEHGT\EMNTBCGB\IRLPTVTV|Kind=2|AlternatePart=SB_ON
 ParamVariation133=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator133=SB77
 ParamVariation134=ParameterName=Component Kind|VariantValue=Standard
@@ -1294,7 +1145,7 @@ ParamVariation153=ParameterName=Package|VariantValue=SB0603
 ParamDesignator153=SB77
 ParamVariation154=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator154=SB77
-Variation68=Designator=SB79|UniqueId=\USUGEHGT\EMNTBCGB\VHXRKBOS|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation68=Designator=SB79|UniqueId=\USUGEHGT\EMNTBCGB\VHXRKBOS|Kind=2|AlternatePart=SB_ON
 ParamVariation155=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator155=SB79
 ParamVariation156=ParameterName=Component Kind|VariantValue=Standard
@@ -1345,7 +1196,7 @@ Variation71=Designator=R75|UniqueId=\USUGEHGT\EMNTBCGB\JDINWUMR|Kind=1|Alternate
 Variation72=Designator=R71|UniqueId=\USUGEHGT\EMNTBCGB\MTTTWBKL|Kind=1|AlternatePart= 
 Variation73=Designator=R69|UniqueId=\USUGEHGT\EMNTBCGB\IEFKJKMN|Kind=1|AlternatePart= 
 Variation74=Designator=R63|UniqueId=\USUGEHGT\EMNTBCGB\QXEXYUQT|Kind=1|AlternatePart= 
-Variation75=Designator=SB89|UniqueId=\USUGEHGT\EMNTBCGB\FPLYONTD|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation75=Designator=SB89|UniqueId=\USUGEHGT\EMNTBCGB\FPLYONTD|Kind=2|AlternatePart=SB_ON
 ParamVariation177=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator177=SB89
 ParamVariation178=ParameterName=Component Kind|VariantValue=Standard
@@ -1390,7 +1241,7 @@ ParamVariation197=ParameterName=Package|VariantValue=SB0603
 ParamDesignator197=SB89
 ParamVariation198=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator198=SB89
-Variation76=Designator=SB92|UniqueId=\USUGEHGT\EMNTBCGB\LWYLFNYF|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation76=Designator=SB92|UniqueId=\USUGEHGT\EMNTBCGB\LWYLFNYF|Kind=2|AlternatePart=SB_ON
 ParamVariation199=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator199=SB92
 ParamVariation200=ParameterName=Component Kind|VariantValue=Standard
@@ -1435,7 +1286,7 @@ ParamVariation219=ParameterName=Package|VariantValue=SB0603
 ParamDesignator219=SB92
 ParamVariation220=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator220=SB92
-Variation77=Designator=SB98|UniqueId=\USUGEHGT\EMNTBCGB\HKGFJPFK|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation77=Designator=SB98|UniqueId=\USUGEHGT\EMNTBCGB\HKGFJPFK|Kind=2|AlternatePart=SB_ON
 ParamVariation221=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator221=SB98
 ParamVariation222=ParameterName=Component Kind|VariantValue=Standard
@@ -1482,7 +1333,7 @@ ParamVariation242=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists
 ParamDesignator242=SB98
 Variation78=Designator=R94|UniqueId=\USUGEHGT\EMNTBCGB\PBTVSXEG|Kind=1|AlternatePart= 
 Variation79=Designator=R101|UniqueId=\USUGEHGT\EMNTBCGB\NIYKRBHD|Kind=1|AlternatePart= 
-Variation80=Designator=SB26|UniqueId=\USUGEHGT\EMNTBCGB\UHCPMYYD|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation80=Designator=SB26|UniqueId=\USUGEHGT\EMNTBCGB\UHCPMYYD|Kind=2|AlternatePart=SB_OFF
 ParamVariation243=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator243=SB26
 ParamVariation244=ParameterName=Component Kind|VariantValue=Standard
@@ -1527,7 +1378,7 @@ ParamVariation263=ParameterName=Package|VariantValue=SB0603
 ParamDesignator263=SB26
 ParamVariation264=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator264=SB26
-Variation81=Designator=SB103|UniqueId=\USUGEHGT\EMNTBCGB\ACDVRYMJ|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation81=Designator=SB103|UniqueId=\USUGEHGT\EMNTBCGB\ACDVRYMJ|Kind=2|AlternatePart=SB_ON
 ParamVariation265=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator265=SB103
 ParamVariation266=ParameterName=Component Kind|VariantValue=Standard
@@ -1572,7 +1423,7 @@ ParamVariation285=ParameterName=Package|VariantValue=SB0603
 ParamDesignator285=SB103
 ParamVariation286=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator286=SB103
-Variation82=Designator=SB118|UniqueId=\USUGEHGT\EMNTBCGB\TUNFCGVT|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation82=Designator=SB118|UniqueId=\USUGEHGT\EMNTBCGB\TUNFCGVT|Kind=2|AlternatePart=SB_ON
 ParamVariation287=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator287=SB118
 ParamVariation288=ParameterName=Component Kind|VariantValue=Standard
@@ -1617,7 +1468,7 @@ ParamVariation307=ParameterName=Package|VariantValue=SB0603
 ParamDesignator307=SB118
 ParamVariation308=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator308=SB118
-Variation83=Designator=SB17|UniqueId=\USUGEHGT\EMNTBCGB\SBIUBBCG|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation83=Designator=SB17|UniqueId=\USUGEHGT\EMNTBCGB\SBIUBBCG|Kind=2|AlternatePart=SB_ON
 ParamVariation309=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator309=SB17
 ParamVariation310=ParameterName=Component Kind|VariantValue=Standard
@@ -1662,7 +1513,7 @@ ParamVariation329=ParameterName=Package|VariantValue=SB0603
 ParamDesignator329=SB17
 ParamVariation330=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator330=SB17
-Variation84=Designator=SB110|UniqueId=\USUGEHGT\EMNTBCGB\RSVYJVXP|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation84=Designator=SB110|UniqueId=\USUGEHGT\EMNTBCGB\RSVYJVXP|Kind=2|AlternatePart=SB_OFF
 ParamVariation331=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator331=SB110
 ParamVariation332=ParameterName=Component Kind|VariantValue=Standard
@@ -1707,7 +1558,7 @@ ParamVariation351=ParameterName=Package|VariantValue=SB0603
 ParamDesignator351=SB110
 ParamVariation352=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator352=SB110
-Variation85=Designator=SB97|UniqueId=\USUGEHGT\EMNTBCGB\GBCICKWG|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation85=Designator=SB97|UniqueId=\USUGEHGT\EMNTBCGB\GBCICKWG|Kind=2|AlternatePart=SB_ON
 ParamVariation353=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator353=SB97
 ParamVariation354=ParameterName=Component Kind|VariantValue=Standard
@@ -1752,7 +1603,7 @@ ParamVariation373=ParameterName=Package|VariantValue=SB0603
 ParamDesignator373=SB97
 ParamVariation374=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator374=SB97
-Variation86=Designator=SB109|UniqueId=\USUGEHGT\EMNTBCGB\JKBQVGNC|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation86=Designator=SB109|UniqueId=\USUGEHGT\EMNTBCGB\JKBQVGNC|Kind=2|AlternatePart=SB_ON
 ParamVariation375=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator375=SB109
 ParamVariation376=ParameterName=Component Kind|VariantValue=Standard
@@ -1797,7 +1648,7 @@ ParamVariation395=ParameterName=Package|VariantValue=SB0603
 ParamDesignator395=SB109
 ParamVariation396=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator396=SB109
-Variation87=Designator=SB100|UniqueId=\USUGEHGT\EMNTBCGB\OKXMWHYH|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation87=Designator=SB100|UniqueId=\USUGEHGT\EMNTBCGB\OKXMWHYH|Kind=2|AlternatePart=SB_ON
 ParamVariation397=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator397=SB100
 ParamVariation398=ParameterName=Component Kind|VariantValue=Standard
@@ -1842,7 +1693,7 @@ ParamVariation417=ParameterName=Package|VariantValue=SB0603
 ParamDesignator417=SB100
 ParamVariation418=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator418=SB100
-Variation88=Designator=SB115|UniqueId=\USUGEHGT\EMNTBCGB\VEIFQBCI|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation88=Designator=SB115|UniqueId=\USUGEHGT\EMNTBCGB\VEIFQBCI|Kind=2|AlternatePart=SB_ON
 ParamVariation419=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator419=SB115
 ParamVariation420=ParameterName=Component Kind|VariantValue=Standard
@@ -1887,7 +1738,7 @@ ParamVariation439=ParameterName=Package|VariantValue=SB0603
 ParamDesignator439=SB115
 ParamVariation440=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator440=SB115
-Variation89=Designator=SB55|UniqueId=\USUGEHGT\EMNTBCGB\GJNXOTXY|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation89=Designator=SB55|UniqueId=\USUGEHGT\EMNTBCGB\GJNXOTXY|Kind=2|AlternatePart=SB_ON
 ParamVariation441=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator441=SB55
 ParamVariation442=ParameterName=Component Kind|VariantValue=Standard
@@ -1932,7 +1783,7 @@ ParamVariation461=ParameterName=Package|VariantValue=SB0603
 ParamDesignator461=SB55
 ParamVariation462=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator462=SB55
-Variation90=Designator=SB56|UniqueId=\USUGEHGT\EMNTBCGB\MBNVPITK|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation90=Designator=SB56|UniqueId=\USUGEHGT\EMNTBCGB\MBNVPITK|Kind=2|AlternatePart=SB_ON
 ParamVariation463=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator463=SB56
 ParamVariation464=ParameterName=Component Kind|VariantValue=Standard
@@ -1977,7 +1828,7 @@ ParamVariation483=ParameterName=Package|VariantValue=SB0603
 ParamDesignator483=SB56
 ParamVariation484=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator484=SB56
-Variation91=Designator=SB49|UniqueId=\USUGEHGT\EMNTBCGB\QAFYCOSJ|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation91=Designator=SB49|UniqueId=\USUGEHGT\EMNTBCGB\QAFYCOSJ|Kind=2|AlternatePart=SB_ON
 ParamVariation485=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator485=SB49
 ParamVariation486=ParameterName=Component Kind|VariantValue=Standard
@@ -2022,7 +1873,7 @@ ParamVariation505=ParameterName=Package|VariantValue=SB0603
 ParamDesignator505=SB49
 ParamVariation506=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator506=SB49
-Variation92=Designator=SB64|UniqueId=\USUGEHGT\EMNTBCGB\BVAQCMEG|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation92=Designator=SB64|UniqueId=\USUGEHGT\EMNTBCGB\BVAQCMEG|Kind=2|AlternatePart=SB_ON
 ParamVariation507=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator507=SB64
 ParamVariation508=ParameterName=Component Kind|VariantValue=Standard
@@ -2067,7 +1918,7 @@ ParamVariation527=ParameterName=Package|VariantValue=SB0603
 ParamDesignator527=SB64
 ParamVariation528=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator528=SB64
-Variation93=Designator=SB50|UniqueId=\USUGEHGT\EMNTBCGB\BRPJMCTN|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation93=Designator=SB50|UniqueId=\USUGEHGT\EMNTBCGB\BRPJMCTN|Kind=2|AlternatePart=SB_ON
 ParamVariation529=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator529=SB50
 ParamVariation530=ParameterName=Component Kind|VariantValue=Standard
@@ -2112,7 +1963,7 @@ ParamVariation549=ParameterName=Package|VariantValue=SB0603
 ParamDesignator549=SB50
 ParamVariation550=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator550=SB50
-Variation94=Designator=SB68|UniqueId=\USUGEHGT\EMNTBCGB\HVQBPAFR|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation94=Designator=SB68|UniqueId=\USUGEHGT\EMNTBCGB\HVQBPAFR|Kind=2|AlternatePart=SB_ON
 ParamVariation551=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator551=SB68
 ParamVariation552=ParameterName=Component Kind|VariantValue=Standard
@@ -2157,7 +2008,7 @@ ParamVariation571=ParameterName=Package|VariantValue=SB0603
 ParamDesignator571=SB68
 ParamVariation572=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator572=SB68
-Variation95=Designator=SB66|UniqueId=\USUGEHGT\EMNTBCGB\CLSKRIIJ|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation95=Designator=SB66|UniqueId=\USUGEHGT\EMNTBCGB\CLSKRIIJ|Kind=2|AlternatePart=SB_ON
 ParamVariation573=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator573=SB66
 ParamVariation574=ParameterName=Component Kind|VariantValue=Standard
@@ -2202,7 +2053,7 @@ ParamVariation593=ParameterName=Package|VariantValue=SB0603
 ParamDesignator593=SB66
 ParamVariation594=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator594=SB66
-Variation96=Designator=SB51|UniqueId=\USUGEHGT\EMNTBCGB\QNUQWWMR|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation96=Designator=SB51|UniqueId=\USUGEHGT\EMNTBCGB\QNUQWWMR|Kind=2|AlternatePart=SB_ON
 ParamVariation595=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator595=SB51
 ParamVariation596=ParameterName=Component Kind|VariantValue=Standard
@@ -2247,7 +2098,7 @@ ParamVariation615=ParameterName=Package|VariantValue=SB0603
 ParamDesignator615=SB51
 ParamVariation616=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator616=SB51
-Variation97=Designator=SB52|UniqueId=\USUGEHGT\EMNTBCGB\WTGHPPAM|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation97=Designator=SB52|UniqueId=\USUGEHGT\EMNTBCGB\WTGHPPAM|Kind=2|AlternatePart=SB_ON
 ParamVariation617=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator617=SB52
 ParamVariation618=ParameterName=Component Kind|VariantValue=Standard
@@ -2292,7 +2143,7 @@ ParamVariation637=ParameterName=Package|VariantValue=SB0603
 ParamDesignator637=SB52
 ParamVariation638=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator638=SB52
-Variation98=Designator=SB108|UniqueId=\USUGEHGT\EMNTBCGB\MXLHEQJI|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation98=Designator=SB108|UniqueId=\USUGEHGT\EMNTBCGB\MXLHEQJI|Kind=2|AlternatePart=SB_ON
 ParamVariation639=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator639=SB108
 ParamVariation640=ParameterName=Component Kind|VariantValue=Standard
@@ -2337,7 +2188,7 @@ ParamVariation659=ParameterName=Package|VariantValue=SB0603
 ParamDesignator659=SB108
 ParamVariation660=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator660=SB108
-Variation99=Designator=SB106|UniqueId=\USUGEHGT\EMNTBCGB\XKPPLPFW|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation99=Designator=SB106|UniqueId=\USUGEHGT\EMNTBCGB\XKPPLPFW|Kind=2|AlternatePart=SB_ON
 ParamVariation661=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator661=SB106
 ParamVariation662=ParameterName=Component Kind|VariantValue=Standard
@@ -2382,7 +2233,7 @@ ParamVariation681=ParameterName=Package|VariantValue=SB0603
 ParamDesignator681=SB106
 ParamVariation682=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator682=SB106
-Variation100=Designator=SB112|UniqueId=\USUGEHGT\EMNTBCGB\ECXWHFSR|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation100=Designator=SB112|UniqueId=\USUGEHGT\EMNTBCGB\ECXWHFSR|Kind=2|AlternatePart=SB_ON
 ParamVariation683=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator683=SB112
 ParamVariation684=ParameterName=Component Kind|VariantValue=Standard
@@ -2427,7 +2278,7 @@ ParamVariation703=ParameterName=Package|VariantValue=SB0603
 ParamDesignator703=SB112
 ParamVariation704=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator704=SB112
-Variation101=Designator=SB61|UniqueId=\USUGEHGT\EMNTBCGB\RFPNTQBK|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation101=Designator=SB61|UniqueId=\USUGEHGT\EMNTBCGB\RFPNTQBK|Kind=2|AlternatePart=SB_ON
 ParamVariation705=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator705=SB61
 ParamVariation706=ParameterName=Component Kind|VariantValue=Standard
@@ -2472,7 +2323,7 @@ ParamVariation725=ParameterName=Package|VariantValue=SB0603
 ParamDesignator725=SB61
 ParamVariation726=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator726=SB61
-Variation102=Designator=SB72|UniqueId=\USUGEHGT\EMNTBCGB\VWFRLFHY|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation102=Designator=SB72|UniqueId=\USUGEHGT\EMNTBCGB\VWFRLFHY|Kind=2|AlternatePart=SB_ON
 ParamVariation727=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator727=SB72
 ParamVariation728=ParameterName=Component Kind|VariantValue=Standard
@@ -2517,7 +2368,7 @@ ParamVariation747=ParameterName=Package|VariantValue=SB0603
 ParamDesignator747=SB72
 ParamVariation748=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator748=SB72
-Variation103=Designator=SB83|UniqueId=\USUGEHGT\EMNTBCGB\IMIDLUAD|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation103=Designator=SB83|UniqueId=\USUGEHGT\EMNTBCGB\IMIDLUAD|Kind=2|AlternatePart=SB_ON
 ParamVariation749=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator749=SB83
 ParamVariation750=ParameterName=Component Kind|VariantValue=Standard
@@ -2562,7 +2413,7 @@ ParamVariation769=ParameterName=Package|VariantValue=SB0603
 ParamDesignator769=SB83
 ParamVariation770=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator770=SB83
-Variation104=Designator=SB93|UniqueId=\USUGEHGT\EMNTBCGB\INYJDUBK|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation104=Designator=SB93|UniqueId=\USUGEHGT\EMNTBCGB\INYJDUBK|Kind=2|AlternatePart=SB_ON
 ParamVariation771=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator771=SB93
 ParamVariation772=ParameterName=Component Kind|VariantValue=Standard
@@ -2607,7 +2458,7 @@ ParamVariation791=ParameterName=Package|VariantValue=SB0603
 ParamDesignator791=SB93
 ParamVariation792=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator792=SB93
-Variation105=Designator=SB113|UniqueId=\USUGEHGT\EMNTBCGB\WMHYUDIF|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation105=Designator=SB113|UniqueId=\USUGEHGT\EMNTBCGB\WMHYUDIF|Kind=2|AlternatePart=SB_ON
 ParamVariation793=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator793=SB113
 ParamVariation794=ParameterName=Component Kind|VariantValue=Standard
@@ -2652,7 +2503,7 @@ ParamVariation813=ParameterName=Package|VariantValue=SB0603
 ParamDesignator813=SB113
 ParamVariation814=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator814=SB113
-Variation106=Designator=SB114|UniqueId=\USUGEHGT\EMNTBCGB\GNJUWMJF|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation106=Designator=SB114|UniqueId=\USUGEHGT\EMNTBCGB\GNJUWMJF|Kind=2|AlternatePart=SB_ON
 ParamVariation815=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator815=SB114
 ParamVariation816=ParameterName=Component Kind|VariantValue=Standard
@@ -2697,7 +2548,7 @@ ParamVariation835=ParameterName=Package|VariantValue=SB0603
 ParamDesignator835=SB114
 ParamVariation836=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator836=SB114
-Variation107=Designator=SB99|UniqueId=\USUGEHGT\EMNTBCGB\VUQFPOVO|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation107=Designator=SB99|UniqueId=\USUGEHGT\EMNTBCGB\VUQFPOVO|Kind=2|AlternatePart=SB_ON
 ParamVariation837=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator837=SB99
 ParamVariation838=ParameterName=Component Kind|VariantValue=Standard
@@ -2742,7 +2593,7 @@ ParamVariation857=ParameterName=Package|VariantValue=SB0603
 ParamDesignator857=SB99
 ParamVariation858=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator858=SB99
-Variation108=Designator=SB57|UniqueId=\USUGEHGT\EMNTBCGB\DFMVLMUI|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation108=Designator=SB57|UniqueId=\USUGEHGT\EMNTBCGB\DFMVLMUI|Kind=2|AlternatePart=SB_ON
 ParamVariation859=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator859=SB57
 ParamVariation860=ParameterName=Component Kind|VariantValue=Standard
@@ -2787,7 +2638,7 @@ ParamVariation879=ParameterName=Package|VariantValue=SB0603
 ParamDesignator879=SB57
 ParamVariation880=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator880=SB57
-Variation109=Designator=SB59|UniqueId=\USUGEHGT\EMNTBCGB\WIGRYYUU|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation109=Designator=SB59|UniqueId=\USUGEHGT\EMNTBCGB\WIGRYYUU|Kind=2|AlternatePart=SB_ON
 ParamVariation881=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator881=SB59
 ParamVariation882=ParameterName=Component Kind|VariantValue=Standard
@@ -2832,7 +2683,7 @@ ParamVariation901=ParameterName=Package|VariantValue=SB0603
 ParamDesignator901=SB59
 ParamVariation902=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator902=SB59
-Variation110=Designator=SB60|UniqueId=\USUGEHGT\EMNTBCGB\ICIYKXSD|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation110=Designator=SB60|UniqueId=\USUGEHGT\EMNTBCGB\ICIYKXSD|Kind=2|AlternatePart=SB_ON
 ParamVariation903=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator903=SB60
 ParamVariation904=ParameterName=Component Kind|VariantValue=Standard
@@ -2877,7 +2728,7 @@ ParamVariation923=ParameterName=Package|VariantValue=SB0603
 ParamDesignator923=SB60
 ParamVariation924=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator924=SB60
-Variation111=Designator=SB95|UniqueId=\USUGEHGT\EMNTBCGB\AMCHBUSI|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation111=Designator=SB95|UniqueId=\USUGEHGT\EMNTBCGB\AMCHBUSI|Kind=2|AlternatePart=SB_ON
 ParamVariation925=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator925=SB95
 ParamVariation926=ParameterName=Component Kind|VariantValue=Standard
@@ -2922,7 +2773,7 @@ ParamVariation945=ParameterName=Package|VariantValue=SB0603
 ParamDesignator945=SB95
 ParamVariation946=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator946=SB95
-Variation112=Designator=SB105|UniqueId=\USUGEHGT\EMNTBCGB\EABRPKYM|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation112=Designator=SB105|UniqueId=\USUGEHGT\EMNTBCGB\EABRPKYM|Kind=2|AlternatePart=SB_ON
 ParamVariation947=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator947=SB105
 ParamVariation948=ParameterName=Component Kind|VariantValue=Standard
@@ -2967,7 +2818,7 @@ ParamVariation967=ParameterName=Package|VariantValue=SB0603
 ParamDesignator967=SB105
 ParamVariation968=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator968=SB105
-Variation113=Designator=SB117|UniqueId=\USUGEHGT\EMNTBCGB\QJIPHXMA|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation113=Designator=SB117|UniqueId=\USUGEHGT\EMNTBCGB\QJIPHXMA|Kind=2|AlternatePart=SB_ON
 ParamVariation969=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator969=SB117
 ParamVariation970=ParameterName=Component Kind|VariantValue=Standard
@@ -3012,7 +2863,7 @@ ParamVariation989=ParameterName=Package|VariantValue=SB0603
 ParamDesignator989=SB117
 ParamVariation990=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator990=SB117
-Variation114=Designator=SB101|UniqueId=\USUGEHGT\EMNTBCGB\LUXEXAUV|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation114=Designator=SB101|UniqueId=\USUGEHGT\EMNTBCGB\LUXEXAUV|Kind=2|AlternatePart=SB_ON
 ParamVariation991=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator991=SB101
 ParamVariation992=ParameterName=Component Kind|VariantValue=Standard
@@ -3057,7 +2908,7 @@ ParamVariation1011=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1011=SB101
 ParamVariation1012=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1012=SB101
-Variation115=Designator=SB70|UniqueId=\USUGEHGT\EMNTBCGB\AWDXUVAD|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation115=Designator=SB70|UniqueId=\USUGEHGT\EMNTBCGB\AWDXUVAD|Kind=2|AlternatePart=SB_ON
 ParamVariation1013=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1013=SB70
 ParamVariation1014=ParameterName=Component Kind|VariantValue=Standard
@@ -3102,7 +2953,7 @@ ParamVariation1033=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1033=SB70
 ParamVariation1034=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1034=SB70
-Variation116=Designator=SB67|UniqueId=\USUGEHGT\EMNTBCGB\RICHYVRB|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation116=Designator=SB67|UniqueId=\USUGEHGT\EMNTBCGB\RICHYVRB|Kind=2|AlternatePart=SB_ON
 ParamVariation1035=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1035=SB67
 ParamVariation1036=ParameterName=Component Kind|VariantValue=Standard
@@ -3147,7 +2998,7 @@ ParamVariation1055=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1055=SB67
 ParamVariation1056=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1056=SB67
-Variation117=Designator=SB104|UniqueId=\USUGEHGT\EMNTBCGB\XUWGFNAN|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation117=Designator=SB104|UniqueId=\USUGEHGT\EMNTBCGB\XUWGFNAN|Kind=2|AlternatePart=SB_ON
 ParamVariation1057=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1057=SB104
 ParamVariation1058=ParameterName=Component Kind|VariantValue=Standard
@@ -3192,7 +3043,7 @@ ParamVariation1077=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1077=SB104
 ParamVariation1078=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1078=SB104
-Variation118=Designator=SB63|UniqueId=\USUGEHGT\EMNTBCGB\CTDJIIPM|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation118=Designator=SB63|UniqueId=\USUGEHGT\EMNTBCGB\CTDJIIPM|Kind=2|AlternatePart=SB_ON
 ParamVariation1079=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1079=SB63
 ParamVariation1080=ParameterName=Component Kind|VariantValue=Standard
@@ -3237,7 +3088,7 @@ ParamVariation1099=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1099=SB63
 ParamVariation1100=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1100=SB63
-Variation119=Designator=SB71|UniqueId=\USUGEHGT\EMNTBCGB\NTVUHULU|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation119=Designator=SB71|UniqueId=\USUGEHGT\EMNTBCGB\NTVUHULU|Kind=2|AlternatePart=SB_ON
 ParamVariation1101=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1101=SB71
 ParamVariation1102=ParameterName=Component Kind|VariantValue=Standard
@@ -3282,7 +3133,7 @@ ParamVariation1121=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1121=SB71
 ParamVariation1122=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1122=SB71
-Variation120=Designator=SB65|UniqueId=\USUGEHGT\EMNTBCGB\DQDGNOCK|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation120=Designator=SB65|UniqueId=\USUGEHGT\EMNTBCGB\DQDGNOCK|Kind=2|AlternatePart=SB_ON
 ParamVariation1123=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1123=SB65
 ParamVariation1124=ParameterName=Component Kind|VariantValue=Standard
@@ -3327,7 +3178,7 @@ ParamVariation1143=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1143=SB65
 ParamVariation1144=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1144=SB65
-Variation121=Designator=SB94|UniqueId=\USUGEHGT\EMNTBCGB\CWMIKFTL|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation121=Designator=SB94|UniqueId=\USUGEHGT\EMNTBCGB\CWMIKFTL|Kind=2|AlternatePart=SB_ON
 ParamVariation1145=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1145=SB94
 ParamVariation1146=ParameterName=Component Kind|VariantValue=Standard
@@ -3372,7 +3223,7 @@ ParamVariation1165=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1165=SB94
 ParamVariation1166=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1166=SB94
-Variation122=Designator=SB91|UniqueId=\USUGEHGT\EMNTBCGB\YSUOYDMT|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation122=Designator=SB91|UniqueId=\USUGEHGT\EMNTBCGB\YSUOYDMT|Kind=2|AlternatePart=SB_ON
 ParamVariation1167=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1167=SB91
 ParamVariation1168=ParameterName=Component Kind|VariantValue=Standard
@@ -3417,7 +3268,7 @@ ParamVariation1187=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1187=SB91
 ParamVariation1188=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1188=SB91
-Variation123=Designator=SB80|UniqueId=\USUGEHGT\EMNTBCGB\JLYUFVJT|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation123=Designator=SB80|UniqueId=\USUGEHGT\EMNTBCGB\JLYUFVJT|Kind=2|AlternatePart=SB_ON
 ParamVariation1189=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator1189=SB80
 ParamVariation1190=ParameterName=Component Kind|VariantValue=Standard
@@ -3466,7 +3317,7 @@ Variation124=Designator=R130|UniqueId=\USUGEHGT\EMNTBCGB\YOWFLXYI|Kind=1|Alterna
 Variation125=Designator=R116|UniqueId=\USUGEHGT\EMNTBCGB\KCLXPIKG|Kind=1|AlternatePart= 
 Variation126=Designator=R34|UniqueId=\USUGEHGT\EMNTBCGB\ASOSKIXY|Kind=1|AlternatePart= 
 Variation127=Designator=R37|UniqueId=\USUGEHGT\EMNTBCGB\XBJKNMXP|Kind=1|AlternatePart= 
-Variation128=Designator=SB12|UniqueId=\USUGEHGT\EMNTBCGB\TNVINGAD|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation128=Designator=SB12|UniqueId=\USUGEHGT\EMNTBCGB\TNVINGAD|Kind=2|AlternatePart=SB_OFF
 ParamVariation1211=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1211=SB12
 ParamVariation1212=ParameterName=Component Kind|VariantValue=Standard
@@ -3517,7 +3368,7 @@ Variation131=Designator=R135|UniqueId=\USUGEHGT\EMNTBCGB\OWIVPEWB|Kind=1|Alterna
 Variation132=Designator=R40|UniqueId=\USUGEHGT\EMNTBCGB\RAWSCPLR|Kind=1|AlternatePart= 
 Variation133=Designator=R84|UniqueId=\USUGEHGT\EMNTBCGB\UQYDCXJW|Kind=1|AlternatePart= 
 Variation134=Designator=R62|UniqueId=\USUGEHGT\EMNTBCGB\KYDTUMUU|Kind=1|AlternatePart= 
-Variation135=Designator=SB29|UniqueId=\USUGEHGT\EMNTBCGB\UOLKVICS|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation135=Designator=SB29|UniqueId=\USUGEHGT\EMNTBCGB\UOLKVICS|Kind=2|AlternatePart=SB_OFF
 ParamVariation1233=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1233=SB29
 ParamVariation1234=ParameterName=Component Kind|VariantValue=Standard
@@ -3567,7 +3418,7 @@ Variation137=Designator=R131|UniqueId=\USUGEHGT\EMNTBCGB\CGICERKR|Kind=1|Alterna
 Variation138=Designator=R38|UniqueId=\USUGEHGT\EMNTBCGB\NBQTMFTJ|Kind=1|AlternatePart= 
 Variation139=Designator=R42|UniqueId=\USUGEHGT\EMNTBCGB\WTDKIMQI|Kind=1|AlternatePart= 
 Variation140=Designator=R41|UniqueId=\USUGEHGT\EMNTBCGB\XRXTOCWA|Kind=1|AlternatePart= 
-Variation141=Designator=SB27|UniqueId=\USUGEHGT\EMNTBCGB\MTKXJFBG|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation141=Designator=SB27|UniqueId=\USUGEHGT\EMNTBCGB\MTKXJFBG|Kind=2|AlternatePart=SB_OFF
 ParamVariation1255=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1255=SB27
 ParamVariation1256=ParameterName=Component Kind|VariantValue=Standard
@@ -3617,7 +3468,7 @@ Variation143=Designator=R129|UniqueId=\USUGEHGT\EMNTBCGB\LOGPACBY|Kind=1|Alterna
 Variation144=Designator=R118|UniqueId=\USUGEHGT\EMNTBCGB\KNHCPRCG|Kind=1|AlternatePart= 
 Variation145=Designator=R29|UniqueId=\USUGEHGT\EMNTBCGB\CDIKGRGE|Kind=1|AlternatePart= 
 Variation146=Designator=R121|UniqueId=\USUGEHGT\EMNTBCGB\QWMIWYBH|Kind=1|AlternatePart= 
-Variation147=Designator=SB5|UniqueId=\USUGEHGT\EMNTBCGB\GTJJQPRS|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation147=Designator=SB5|UniqueId=\USUGEHGT\EMNTBCGB\GTJJQPRS|Kind=2|AlternatePart=SB_OFF
 ParamVariation1277=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1277=SB5
 ParamVariation1278=ParameterName=Component Kind|VariantValue=Standard
@@ -3662,7 +3513,7 @@ ParamVariation1297=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1297=SB5
 ParamVariation1298=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1298=SB5
-Variation148=Designator=SB7|UniqueId=\USUGEHGT\EMNTBCGB\XSRHRISW|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation148=Designator=SB7|UniqueId=\USUGEHGT\EMNTBCGB\XSRHRISW|Kind=2|AlternatePart=SB_OFF
 ParamVariation1299=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1299=SB7
 ParamVariation1300=ParameterName=Component Kind|VariantValue=Standard
@@ -3707,7 +3558,7 @@ ParamVariation1319=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1319=SB7
 ParamVariation1320=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1320=SB7
-Variation149=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation149=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF
 ParamVariation1321=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1321=SB8
 ParamVariation1322=ParameterName=Component Kind|VariantValue=Standard
@@ -3752,7 +3603,7 @@ ParamVariation1341=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1341=SB8
 ParamVariation1342=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1342=SB8
-Variation150=Designator=SB11|UniqueId=\USUGEHGT\EMNTBCGB\BLQMHYCT|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation150=Designator=SB11|UniqueId=\USUGEHGT\EMNTBCGB\BLQMHYCT|Kind=2|AlternatePart=SB_OFF
 ParamVariation1343=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1343=SB11
 ParamVariation1344=ParameterName=Component Kind|VariantValue=Standard
@@ -3799,7 +3650,7 @@ ParamVariation1364=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/List
 ParamDesignator1364=SB11
 Variation151=Designator=R108|UniqueId=\USUGEHGT\EMNTBCGB\JNTXVDEL|Kind=1|AlternatePart= 
 Variation152=Designator=R102|UniqueId=\USUGEHGT\EMNTBCGB\OMAPBRLO|Kind=1|AlternatePart= 
-Variation153=Designator=SB18|UniqueId=\USUGEHGT\EMNTBCGB\LJHDKNYG|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation153=Designator=SB18|UniqueId=\USUGEHGT\EMNTBCGB\LJHDKNYG|Kind=2|AlternatePart=SB_OFF
 ParamVariation1365=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1365=SB18
 ParamVariation1366=ParameterName=Component Kind|VariantValue=Standard
@@ -3844,7 +3695,7 @@ ParamVariation1385=ParameterName=Package|VariantValue=SB0603
 ParamDesignator1385=SB18
 ParamVariation1386=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1386=SB18
-Variation154=Designator=SB9|UniqueId=\USUGEHGT\EMNTBCGB\YGWAPWXU|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation154=Designator=SB9|UniqueId=\USUGEHGT\EMNTBCGB\YGWAPWXU|Kind=2|AlternatePart=SB_OFF
 ParamVariation1387=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1387=SB9
 ParamVariation1388=ParameterName=Component Kind|VariantValue=Standard
@@ -3890,7 +3741,7 @@ ParamDesignator1407=SB9
 ParamVariation1408=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/MCDPARTSdatabase
 ParamDesignator1408=SB9
 Variation155=Designator=R26|UniqueId=\USUGEHGT\EMNTBCGB\EYAYBHIJ|Kind=1|AlternatePart= 
-Variation156=Designator=SB123|UniqueId=\USUGEHGT\EMNTBCGB\ELBGMFEP|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation156=Designator=SB123|UniqueId=\USUGEHGT\EMNTBCGB\ELBGMFEP|Kind=2|AlternatePart=SB_OFF
 ParamVariation1409=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1409=SB123
 ParamVariation1410=ParameterName=Component Kind|VariantValue=Standard
@@ -3938,9 +3789,7 @@ ParamDesignator1430=SB123
 ParamVariationCount=1430
 
 [ProjectVariant3]
-UniqueID=DA2EE345-00B2-4BF4-B2A8-9B400285A8C7
 Description=G484E
-AllowFabrication=0
 ParameterCount=0
 VariationCount=73
 Variation1=Designator=R286|UniqueId=\USUGEHGT\YALSDPRH\BNHWIJFF|Kind=1|AlternatePart= 
@@ -4010,7 +3859,7 @@ Variation64=Designator=R169|UniqueId=\USUGEHGT\MYTKGHIE\YCIVMRIT|Kind=1|Alternat
 Variation65=Designator=R168|UniqueId=\USUGEHGT\MYTKGHIE\COBPKMJI|Kind=1|AlternatePart= 
 Variation66=Designator=R170|UniqueId=\USUGEHGT\MYTKGHIE\LKHOATSD|Kind=1|AlternatePart= 
 Variation67=Designator=R167|UniqueId=\USUGEHGT\MYTKGHIE\QSIEVVWK|Kind=1|AlternatePart= 
-Variation68=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation68=Designator=SB35|UniqueId=\USUGEHGT\MYTKGHIE\LTENFUPA|Kind=2|AlternatePart=SB_OFF
 ParamVariation1=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator1=SB35
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -4057,7 +3906,7 @@ ParamVariation22=ParameterName=Path|VariantValue=ws/MCD_ApplicationBoards/Lists/
 ParamDesignator22=SB35
 Variation69=Designator=C33|UniqueId=\USUGEHGT\PXPLTCMB\ADNRCKBS|Kind=1|AlternatePart= 
 Variation70=Designator=L1|UniqueId=\USUGEHGT\PXPLTCMB\RYHBACKH|Kind=1|AlternatePart= 
-Variation71=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_ON|AltLibLink_DesignItemID=MCD-00072|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation71=Designator=SB8|UniqueId=\USUGEHGT\EMNTBCGB\PKVWBJYI|Kind=2|AlternatePart=SB_OFF
 ParamVariation23=ParameterName=Comment|VariantValue=SB_OFF
 ParamDesignator23=SB8
 ParamVariation24=ParameterName=Component Kind|VariantValue=Standard
@@ -4102,7 +3951,7 @@ ParamVariation43=ParameterName=Simulation|VariantValue=
 ParamDesignator43=SB8
 ParamVariation44=ParameterName=Status|VariantValue=Released
 ParamDesignator44=SB8
-Variation72=Designator=SB10|UniqueId=\USUGEHGT\EMNTBCGB\UBBXOTPS|Kind=2|AlternatePart=SB_ON|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=SB_OFF|AltLibLink_DesignItemID=MCD-00071|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOLDER-BRIDGE_R0603-0R|AltLibLink_IsSameFootprint=True
+Variation72=Designator=SB10|UniqueId=\USUGEHGT\EMNTBCGB\UBBXOTPS|Kind=2|AlternatePart=SB_ON
 ParamVariation45=ParameterName=Comment|VariantValue=SB_ON
 ParamDesignator45=SB10
 ParamVariation46=ParameterName=Component Kind|VariantValue=Standard
@@ -4147,7 +3996,7 @@ ParamVariation65=ParameterName=Simulation|VariantValue=
 ParamDesignator65=SB10
 ParamVariation66=ParameterName=Status|VariantValue=Released
 ParamDesignator66=SB10
-Variation73=Designator=U6|UniqueId=\USUGEHGT\EMNTBCGB\NMHQRUIH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=MCD_PARTS_database.DbLib/MCD_PARTS$|AltLibLink_SymbolReference=STM32G474WET6|AltLibLink_DesignItemID=MCD-01708|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=MCD_PARTS_database.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=MCD_PARTS$|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=ICC_LQFP128_14X14_P040|AltLibLink_IsSameFootprint=True
+Variation73=Designator=U6|UniqueId=\USUGEHGT\EMNTBCGB\NMHQRUIH|Kind=2|AlternatePart==Value
 ParamVariation67=ParameterName=Comment|VariantValue==Value
 ParamDesignator67=U6
 ParamVariation68=ParameterName=Component Kind|VariantValue=Standard
@@ -4190,45 +4039,33 @@ ParamVariation86=ParameterName=Value|VariantValue=STM32G484QET6U
 ParamDesignator86=U6
 ParamVariationCount=86
 
+[GeneratedDocument1]
+DocumentPath=MB1397.PcbDoc.htm
+
 [Parameter1]
-Name=Board_Reference
-Value=MB1397
+Name=Board_Assembly_Revision
+Value=04
 
 [Parameter2]
-Name=Board_PCB_Revision
-Value=B
+Name=Board_Document_Date
+Value=01-NOV-18
 
 [Parameter3]
 Name=Board_Name
 Value=STM32G474E-EVAL
 
 [Parameter4]
-Name=Board_Document_Date
-Value=01-NOV-18
+Name=Board_PCB_Revision
+Value=B
 
 [Parameter5]
-Name=Board_Assembly_Revision
-Value=04
+Name=Board_Reference
+Value=MB1397
 
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
-
-[Configuration2]
-Name=Default Configuration
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -4272,214 +4109,226 @@ OutputDir=Project Outputs for PCB_Project_Template
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=导出为WPS PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=XSpiceNetlist
-OutputName2=XSpice Netlist
+OutputType2=CadnetixNetlist
+OutputName2=Cadnetix Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=CadnetixNetlist
-OutputName3=Cadnetix Netlist
+OutputType3=CalayNetlist
+OutputName3=Calay Netlist
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=CalayNetlist
-OutputName4=Calay Netlist
+OutputType4=EDIF
+OutputName4=EDIF for PCB
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=EDIF
-OutputName5=EDIF for PCB
+OutputType5=EESofNetlist
+OutputName5=EESof Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=EESofNetlist
-OutputName6=EESof Netlist
+OutputType6=IntergraphNetlist
+OutputName6=Intergraph Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=IntergraphNetlist
-OutputName7=Intergraph Netlist
+OutputType7=MentorBoardStationNetlist
+OutputName7=Mentor BoardStation Netlist
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=MentorBoardStationNetlist
-OutputName8=Mentor BoardStation Netlist
+OutputType8=MultiWire
+OutputName8=MultiWire
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=MultiWire
-OutputName9=MultiWire
+OutputType9=OrCadPCB2Netlist
+OutputName9=Orcad/PCB2 Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=OrCadPCB2Netlist
-OutputName10=Orcad/PCB2 Netlist
+OutputType10=PADSNetlist
+OutputName10=PADS ASCII Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=PADSNetlist
-OutputName11=PADS ASCII Netlist
+OutputType11=Pcad
+OutputName11=Pcad for PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Pcad
-OutputName12=Pcad for PCB
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=PCADnltNetlist
-OutputName13=PCADnlt Netlist
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=Protel2Netlist
-OutputName14=Protel2 Netlist
+OutputType14=ProtelNetlist
+OutputName14=Protel
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=ProtelNetlist
-OutputName15=Protel
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=RacalNetlist
-OutputName16=Racal Netlist
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=RINFNetlist
-OutputName17=RINF Netlist
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=SciCardsNetlist
-OutputName18=SciCards Netlist
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TangoNetlist
-OutputName19=Tango Netlist
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=TelesisNetlist
-OutputName20=Telesis Netlist
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=WireListNetlist
-OutputName21=WireList Netlist
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=Verilog
+OutputName23=Verilog File
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=VHDL
+OutputName24=VHDL File
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=XSpiceNetlist
+OutputName25=XSpice Netlist
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrix_Sim
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLIS_Sim
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Print
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType3=PCB 3D Video
-OutputName3=PCB 3D Video
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+OutputType3=PCB Print
+OutputName3=PCB Prints
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType4=PCB Print
-OutputName4=PCB Prints
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+OutputType4=Schematic Print
+OutputName4=Schematic Prints
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType5=PCBLIB Print
-OutputName5=PCBLIB Prints
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+OutputType5=SimView Print
+OutputName5=SimView Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType6=Report Print
-OutputName6=Report Prints
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+OutputType6=Logic Analyser Print
+OutputName6=Logic Analyser Prints
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType7=Schematic Print
-OutputName7=Schematic Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType7=OpenBus Print
+OutputName7=OpenBus Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType8=SimView Print
-OutputName8=SimView Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType8=Wave Print
+OutputName8=Wave Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType9=Wave Print
-OutputName9=Wave Prints
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType9=WaveSim Print
+OutputName9=WaveSim Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType10=WaveSim Print
-OutputName10=WaveSim Prints
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType11=PCBDrawing
-OutputName11=Draftsman
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=PDF3D
-OutputName12=PDF3D
-OutputDocumentPath12=
-OutputVariantName12=[No Variations]
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=PDFCreator
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=导出为WPS PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.23|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.23|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration1_Name2=OutputConfigurationParameter2
@@ -4527,35 +4376,30 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
-OutputDocumentPath3=
-OutputVariantName3=[No Variations]
-OutputDefault3=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=导出为WPS PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType3=Final
 OutputName3=Final Artwork Prints
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType4=Gerber
 OutputName4=Gerber Files
 OutputDocumentPath4=
@@ -4566,7 +4410,7 @@ OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputDocumentPath6=
@@ -4582,34 +4426,18 @@ OutputName8=Power-Plane Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType9=Test Points
 OutputName9=Test Point Report
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Board Stack Report
-OutputName10=Report Board Stack
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Gerber X2
-OutputName11=Gerber X2 Files
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=IPC2581
-OutputName12=IPC-2581 Files
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\shznt002\SHZPRT007
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=导出为WPS PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
 OutputDocumentPath1=
@@ -4634,7 +4462,7 @@ OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
 Configuration4_Name2=Filter
@@ -4659,287 +4487,186 @@ OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Design Rules Check
+OutputName7=Design Rules Check
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType8=Electrical Rules Check
+OutputName8=Electrical Rules Check
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=导出为WPS PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType2=Text Print
 OutputName2=Text Print
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType3=Text Print
 OutputName3=Text Print
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType4=Text Print
 OutputName4=Text Print
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType5=Text Print
 OutputName5=Text Print
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType6=Text Print
 OutputName6=Text Print
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType7=Text Print
 OutputName7=Text Print
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType8=Text Print
 OutputName8=Text Print
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType9=Text Print
 OutputName9=Text Print
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType10=Text Print
 OutputName10=Text Print
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType11=Text Print
 OutputName11=Text Print
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType12=Text Print
 OutputName12=Text Print
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType13=Text Print
 OutputName13=Text Print
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType14=Text Print
 OutputName14=Text Print
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType15=Text Print
 OutputName15=Text Print
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType16=Text Print
 OutputName16=Text Print
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType17=Text Print
 OutputName17=Text Print
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType18=Text Print
 OutputName18=Text Print
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType19=Text Print
 OutputName19=Text Print
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType20=Text Print
 OutputName20=Text Print
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType21=Text Print
 OutputName21=Text Print
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType22=Text Print
 OutputName22=Text Print
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType23=Text Print
 OutputName23=Text Print
 OutputDocumentPath23=
 OutputVariantName23=
 OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType24=Text Print
 OutputName24=Text Print
 OutputDocumentPath24=
 OutputVariantName24=
 OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType25=Text Print
 OutputName25=Text Print
 OutputDocumentPath25=
 OutputVariantName25=
 OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType26=Text Print
 OutputName26=Text Print
 OutputDocumentPath26=
 OutputVariantName26=
 OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType27=Text Print
 OutputName27=Text Print
 OutputDocumentPath27=
 OutputVariantName27=
 OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-
-[OutputGroup8]
-Name=Validation Outputs
-Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Design Rules Check
-OutputName1=Design Rules Check
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType2=Differences Report
-OutputName2=Differences Report
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType3=Electrical Rules Check
-OutputName3=Electrical Rules Check
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType4=Footprint Comparison Report
-OutputName4=Footprint Comparison Report
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=Component states check
-OutputName5=Vault's components states check
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=Configuration compliance
-OutputName6=Environment configuration compliance check
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-
-[OutputGroup9]
-Name=Export Outputs
-Description=
-TargetPrinter=\\SHZNT002.SHZ.ST.COM\shzprt102
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AutoCAD dwg/dxf PCB
-OutputName1=AutoCAD dwg/dxf File PCB
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf Schematic
-OutputName2=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=ExportSTEP
-OutputName3=Export STEP
-OutputDocumentPath3=
-OutputVariantName3=[No Variations]
-OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
-OutputDocumentPath5=
-OutputVariantName5=[No Variations]
-OutputDefault5=0
-OutputType6=ExportVRML
-OutputName6=Export VRML
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=\\shznt002\SHZPRT007
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
+PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [Modification Levels]
 Type1=1
@@ -5008,30 +4735,6 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
-Type67=1
-Type68=1
-Type69=1
-Type70=1
-Type71=1
-Type72=1
-Type73=1
-Type74=1
-Type75=1
-Type76=1
-Type77=1
-Type78=1
-Type79=1
-Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
 
 [Difference Levels]
 Type1=1
@@ -5068,21 +4771,6 @@ Type31=1
 Type32=1
 Type33=1
 Type34=1
-Type35=1
-Type36=1
-Type37=1
-Type38=1
-Type39=1
-Type40=1
-Type41=1
-Type42=1
-Type43=1
-Type44=0
-Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
 
 [Electrical Rules Check]
 Type1=1
@@ -5183,21 +4871,6 @@ Type95=2
 Type96=2
 Type97=2
 Type98=0
-Type99=1
-Type100=2
-Type101=1
-Type102=2
-Type103=2
-Type104=1
-Type105=2
-Type106=2
-Type107=2
-Type108=2
-Type109=1
-Type110=1
-Type111=1
-Type112=1
-Type113=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
@@ -5220,14 +4893,12 @@ L17=EEEEEEEEEEEEEEEEE
 
 [Annotate]
 SortOrder=3
-SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
-GlobalIndexSortLocation=0
 UniqueIDPath0=\PUETYIQX\APTISRRX
 DocumentName0=Arduino Connector.SchDoc
 IsEnabled0=1
@@ -5380,11 +5051,9 @@ NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
 SelectedOnly=0
-UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=MB1397_1.SCHLIB
@@ -6511,8 +6180,6 @@ ComponentIsDeviceSheet186=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
-PreserveParameterLocations=1
-PreserveParameterVisibility=1
 DoGraphics=1
 DoParameters=1
 DoModels=1
@@ -6902,7 +6569,6 @@ ModelUpdate103=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
-UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=MB1397_1.SCHLIB
@@ -8021,8 +7687,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 
